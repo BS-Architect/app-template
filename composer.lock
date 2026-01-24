@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c514d8f7b9fc5970bdd94287905ef584",
+    "content-hash": "7911ce49b7825593027a12dfa8c5b785",
     "packages": [
         {
             "name": "brick/math",
@@ -65,6 +65,48 @@
                 }
             ],
             "time": "2025-11-24T14:40:29+00:00"
+        },
+        {
+            "name": "bs-architect/platform-core",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BS-Architect/platform-core.git",
+                "reference": "b12fe618b82ed88fb5a15fe97948ee5439ed3176"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BS-Architect/platform-core/zipball/b12fe618b82ed88fb5a15fe97948ee5439ed3176",
+                "reference": "b12fe618b82ed88fb5a15fe97948ee5439ed3176",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^11.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BsArchitect\\PlatformCore\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "BsArchitect\\PlatformCore\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Platform glue: registry, contracts, standards. No domain logic.",
+            "support": {
+                "source": "https://github.com/BS-Architect/platform-core/tree/main",
+                "issues": "https://github.com/BS-Architect/platform-core/issues"
+            },
+            "time": "2026-01-24T19:56:27+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -8362,7 +8404,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "bs-architect/platform-core": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
