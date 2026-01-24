@@ -23,5 +23,6 @@ return [
         //
         // Admin shell:
         // \BsArchitect\ModuleAdmin\Infrastructure\ServiceProvider::class,
+        \BsArchitect\ModulePages\Infrastructure\Providers\ModulePagesServiceProvider::class,
     ],
 ];
