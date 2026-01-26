@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7911ce49b7825593027a12dfa8c5b785",
+    "content-hash": "62cffb034a13bc6671c65593ed681045",
     "packages": [
         {
             "name": "brick/math",
@@ -65,6 +65,49 @@
                 }
             ],
             "time": "2025-11-24T14:40:29+00:00"
+        },
+        {
+            "name": "bs-architect/module-pages",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BS-Architect/module-pages.git",
+                "reference": "3eb8837663547246fadc3ac08a65e4b617885809"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BS-Architect/module-pages/zipball/3eb8837663547246fadc3ac08a65e4b617885809",
+                "reference": "3eb8837663547246fadc3ac08a65e4b617885809",
+                "shasum": ""
+            },
+            "require": {
+                "bs-architect/platform-core": "dev-main",
+                "php": "^8.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^11.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BsArchitect\\ModulePages\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "BsArchitect\\ModulePages\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Domain module: pages/CMS (Domain+Application+Contracts+Infrastructure+Admin plugin).",
+            "support": {
+                "source": "https://github.com/BS-Architect/module-pages/tree/main",
+                "issues": "https://github.com/BS-Architect/module-pages/issues"
+            },
+            "time": "2026-01-24T21:19:18+00:00"
         },
         {
             "name": "bs-architect/platform-core",
@@ -8405,6 +8448,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "bs-architect/module-pages": 20,
         "bs-architect/platform-core": 20
     },
     "prefer-stable": true,
