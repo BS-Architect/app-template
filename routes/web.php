@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/admin/pages', function () {
     return 'Pages admin stub';
 })->name('admin.pages.index');
+
+Route::get('/admin/catalog', function () {
+    return 'Catalog admin stub';
+})->name('admin.catalog.index');

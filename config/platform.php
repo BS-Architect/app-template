@@ -16,17 +16,12 @@ return [
     */
 
     'providers' => [
-        // Example (later):
-        // \BsArchitect\ModulePages\Infrastructure\ServiceProvider::class,
-        // \BsArchitect\ModuleCatalog\Infrastructure\ServiceProvider::class,
-        // \BsArchitect\ModuleOrders\Infrastructure\ServiceProvider::class,
-        //
-        // Admin shell:
-        // \BsArchitect\ModuleAdmin\Infrastructure\ServiceProvider::class,
-
         \BsArchitect\ModuleAdmin\Infrastructure\Providers\ModuleAdminServiceProvider::class,
 
         \BsArchitect\ModulePages\Infrastructure\Providers\ModulePagesServiceProvider::class,
         \BsArchitect\ModulePages\Admin\AdminServiceProvider::class,
+
+        \BsArchitect\ModuleCatalog\Infrastructure\Providers\ModuleCatalogServiceProvider::class,
+        \BsArchitect\ModuleCatalog\Admin\AdminServiceProvider::class,
     ],
 ];

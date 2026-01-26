@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0460c02fa34d4a85bcbf4132695835e1",
+    "content-hash": "1da7fafb7cd83a3eeefb9e15219b7732",
     "packages": [
         {
             "name": "brick/math",
@@ -109,6 +109,50 @@
                 "issues": "https://github.com/BS-Architect/module-admin/issues"
             },
             "time": "2026-01-26T16:18:54+00:00"
+        },
+        {
+            "name": "bs-architect/module-catalog",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BS-Architect/module-catalog.git",
+                "reference": "90649461928a60e8b79b4f7413de6d6095247a1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BS-Architect/module-catalog/zipball/90649461928a60e8b79b4f7413de6d6095247a1a",
+                "reference": "90649461928a60e8b79b4f7413de6d6095247a1a",
+                "shasum": ""
+            },
+            "require": {
+                "bs-architect/module-admin": "dev-main",
+                "bs-architect/platform-core": "dev-main",
+                "php": "^8.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^11.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BsArchitect\\ModuleCatalog\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "BsArchitect\\ModuleCatalog\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Domain module: catalog (products, pricing, basic catalog management).",
+            "support": {
+                "source": "https://github.com/BS-Architect/module-catalog/tree/main",
+                "issues": "https://github.com/BS-Architect/module-catalog/issues"
+            },
+            "time": "2026-01-26T18:49:05+00:00"
         },
         {
             "name": "bs-architect/module-pages",
@@ -8494,6 +8538,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "bs-architect/module-admin": 20,
+        "bs-architect/module-catalog": 20,
         "bs-architect/module-pages": 20,
         "bs-architect/platform-core": 20
     },

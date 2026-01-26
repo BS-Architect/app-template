@@ -13,6 +13,7 @@
         "bs-architect/platform-core": "dev-main",
         "bs-architect/module-pages": "dev-main",
         "bs-architect/module-admin": "dev-main",
+        "bs-architect/module-catalog": "dev-main",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1"
     },
@@ -37,6 +38,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:bs-architect/module-admin.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:bs-architect/module-catalog.git"
         }
     ],
     "autoload": {
