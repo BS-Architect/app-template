@@ -25,6 +25,8 @@ return [
         // \BsArchitect\ModuleAdmin\Infrastructure\ServiceProvider::class,
 
         \BsArchitect\ModuleAdmin\Infrastructure\Providers\ModuleAdminServiceProvider::class,
+
         \BsArchitect\ModulePages\Infrastructure\Providers\ModulePagesServiceProvider::class,
+        \BsArchitect\ModulePages\Admin\AdminServiceProvider::class,
     ],
 ];

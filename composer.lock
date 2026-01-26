@@ -72,12 +72,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/BS-Architect/module-admin.git",
-                "reference": "8fd0a66465cefdcb79e584e57a1c8feb96054a18"
+                "reference": "a6d4f6e3cad95ad1dfe6fa07cb2b1193bd741316"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BS-Architect/module-admin/zipball/8fd0a66465cefdcb79e584e57a1c8feb96054a18",
-                "reference": "8fd0a66465cefdcb79e584e57a1c8feb96054a18",
+                "url": "https://api.github.com/repos/BS-Architect/module-admin/zipball/a6d4f6e3cad95ad1dfe6fa07cb2b1193bd741316",
+                "reference": "a6d4f6e3cad95ad1dfe6fa07cb2b1193bd741316",
                 "shasum": ""
             },
             "require": {
@@ -108,7 +108,7 @@
                 "source": "https://github.com/BS-Architect/module-admin/tree/main",
                 "issues": "https://github.com/BS-Architect/module-admin/issues"
             },
-            "time": "2026-01-26T08:25:34+00:00"
+            "time": "2026-01-26T16:18:54+00:00"
         },
         {
             "name": "bs-architect/module-pages",
@@ -116,15 +116,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/BS-Architect/module-pages.git",
-                "reference": "57eaec74a07c424dea371c7a3ba02c641aa65b03"
+                "reference": "a225de779e2efd78648c78df9f645a4119cd826d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BS-Architect/module-pages/zipball/57eaec74a07c424dea371c7a3ba02c641aa65b03",
-                "reference": "57eaec74a07c424dea371c7a3ba02c641aa65b03",
+                "url": "https://api.github.com/repos/BS-Architect/module-pages/zipball/a225de779e2efd78648c78df9f645a4119cd826d",
+                "reference": "a225de779e2efd78648c78df9f645a4119cd826d",
                 "shasum": ""
             },
             "require": {
+                "bs-architect/module-admin": "dev-main",
                 "bs-architect/platform-core": "dev-main",
                 "php": "^8.4"
             },
@@ -151,7 +152,7 @@
                 "source": "https://github.com/BS-Architect/module-pages/tree/main",
                 "issues": "https://github.com/BS-Architect/module-pages/issues"
             },
-            "time": "2026-01-26T10:52:51+00:00"
+            "time": "2026-01-26T16:16:10+00:00"
         },
         {
             "name": "bs-architect/platform-core",
